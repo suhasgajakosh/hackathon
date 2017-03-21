@@ -1,0 +1,12 @@
+package subsets;
+
+public class FindSubsets {
+
+	public static void main(String[] args) {
+		
+		int arr[] = new int[7];
+		arr = {3, 34, 4, 12, 5, 2, 6};
+		
+	}
+
+}

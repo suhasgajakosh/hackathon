@@ -1,0 +1,46 @@
+package election;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/*
+ * 1)	Election Winner: Provide the implementation for the function which will find out the winner. 
+ * An array contains the list of candidates names of polled votes will be provided. 
+ * The function should return the name of the candidate who wins. 
+ * If more than one candidate gets same highest numbers of votes then sort their names in alphabetical order 
+ * and winner should be the last name in the order.
+Example Input : {joe,mon,joe,mon,rach,rach,rach,phoe,phoe,phoe}
+Output : rach
+
+ * */
+public class ElectionWinner {
+
+	public static void main(String[] args) {
+
+		String arr[] = {"joe", "mon", "joe", "mon", "rach", "rach", "rach", "phoe", "phoe", "phoe"};
+		for (String str : arr) {
+			System.out.print(str);
+		}
+
+		String winner = findElectionWinner(arr);
+		System.out.println(winner);
+
+	}
+
+	private static String findElectionWinner(String[] arr) {
+		
+		String winner = null;
+		Arrays.sort(arr);
+		for (String str : arr) {
+			System.out.println(str);
+		}
+		return winner;
+	}
+
+
+
+}

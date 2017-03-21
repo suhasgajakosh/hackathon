@@ -1,0 +1,9 @@
+package election;
+
+public class ElectionWinner {
+
+	public static void main(String[] args) {
+
+	}
+
+}
