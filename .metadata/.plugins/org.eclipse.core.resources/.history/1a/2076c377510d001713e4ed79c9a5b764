@@ -1,9 +1,0 @@
-package maxArray;
-
-public class MaxesArray {
-
-	public static void main(String[] args) {
-
-	}
-
-}
