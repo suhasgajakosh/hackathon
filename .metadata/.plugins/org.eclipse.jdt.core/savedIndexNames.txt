@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+D:\codebase\hackathon\.metadata\.plugins\org.eclipse.jdt.core
+2922099203.index
+3421323685.index
