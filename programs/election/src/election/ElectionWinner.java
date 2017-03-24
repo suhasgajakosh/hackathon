@@ -19,6 +19,9 @@ Output : rach
 
  * */
 public class ElectionWinner {
+	
+	
+	
 
 	public static void main(String[] args) {
 
@@ -29,15 +32,15 @@ public class ElectionWinner {
 
 	}
 
-	private static String findElectionWinner(String[] arr) {
+	private static String findElectionWinner(String[] votes) {
 
 		String winner = null;
 		List<String> tieList = new ArrayList<>();
 		Map<String, Integer> map = new HashMap<>();
 		int oldWinner = 0;
 		int newWinner = 0;
-		Arrays.sort(arr);
-		for (String str : arr) {
+		Arrays.sort(votes);
+		for (String str : votes) {
 			if (null != str) {
 				if (null != map.get(str)) {
 					map.put(str, map.get(str) + 1);
